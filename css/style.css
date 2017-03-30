@@ -1,0 +1,177 @@
+html {
+  font-size: 14px;
+}
+/*Universal CSS*/
+
+.text-grey {
+  color: #808080;
+}
+
+.text-grey a {
+  color: #808080;
+}
+
+.text-grey a:hover {
+  color: white;
+  transition: ease-in-out 0.25s
+}
+
+.text-black, .text-black a {
+  color: black;
+}
+
+.text-white, .text-white a  {
+  color: white;
+}
+
+.text-white a:hover {
+  text-decoration: none;
+  color: #808080;
+  transition: ease-in-out 0.25s
+}
+
+.background-light-green {
+  background-color: #becbb7;
+}
+
+.background-green {
+  background: #7c9180;
+}
+
+.float-right{
+  float: right;
+}
+
+.flex-center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-effect {
+  position:relative;
+  background:black;
+}
+
+.hover-effect:hover img {
+  opacity: 0.5;
+  transition: ease-in-out 0.25s
+}
+
+.image-hover-effect {
+  position:relative;
+}
+
+.image-hover-effect:after {
+  content:' ';
+  position:absolute;
+  width:100%; height:100%;
+  top:0; left:0;
+  background:rgba(0,0,0,0.3);
+  opacity:0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.image-hover-effect a {
+  z-index: 1;
+}
+
+.image-hover-effect:hover:after {
+  opacity:1;
+}
+
+.dash{
+  width: 20px;
+  border: 2px solid white;
+}
+
+/*Container small*/
+
+.container-small {
+  position: fixed;
+  width: 9%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-small img {
+  height: auto;
+  max-width: 4rem;
+  margin-top: 3rem;
+}
+
+nav li:first-child {
+  margin-top: 9rem;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 2.071rem;
+  font-size: 2rem;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+.shopping-bag {
+   font-size: 1rem;
+}
+
+/*Container big*/
+
+.container-big  {
+  float: right;
+  width: 91%;
+}
+
+.container-half {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+}
+
+.container-half img{
+  width: 20rem;
+}
+
+.container-half .leaf {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.shop-box {
+  padding-top: 5rem;
+  padding-bottom: 5.2rem;
+  background: #7c9180;
+}
+
+.shop-box h2 {
+  color: #8da79d;
+  text-shadow:
+   -2px -2px 0 #fff,
+    2px -2px 0 #fff,
+    -2px 2px 0 #fff,
+    2px 2px 0 #fff;
+  font-size: 7rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+}
+
+.title-box {
+  font-size: 5.5rem;
+}
