@@ -20,6 +20,17 @@ html {
   color: black;
 }
 
+.text-hover-grey {
+  text-decoration: none;
+  color: black;
+}
+
+.text-hover-grey:hover {
+  text-decoration: none;
+  color: #929292;
+  transition: ease-in-out 0.25s
+}
+
 .text-white, .text-white a  {
   color: white;
 }
@@ -48,6 +59,10 @@ html {
 
 .background-green {
   background: #7c9180;
+}
+
+.background-grey {
+  background-color: #646873;
 }
 
 .background-light-grey {
@@ -191,11 +206,11 @@ nav ul {
   display: inline-flex;
 }
 
-.container-half img{
+.leaf-img img {
   width: 20rem;
 }
 
-.container-half .leaf {
+.leaf {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
@@ -263,4 +278,23 @@ nav ul {
 .photo-gallery p {
   font-size: 0.9rem;
   margin-top: 1rem;
+}
+/**/
+.heels {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.heels-img img{
+  width: 30rem;
+}
+
+.heels-img a {
+  font-family: monospace;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+.heels-img p {
+  margin-top: 2rem;
 }
