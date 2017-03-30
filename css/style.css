@@ -50,6 +50,18 @@ html {
   background: #7c9180;
 }
 
+.background-light-grey {
+  background-color: #cac4b9;
+}
+
+.background-red {
+  background-color: #7a242e;
+}
+
+.background-pink {
+  background-color: #eac9bd;
+}
+
 .float-right{
   float: right;
 }
@@ -99,9 +111,32 @@ html {
   opacity:1;
 }
 
+.hover-gallery{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: ease-in-out 0.2s;
+}
+.hover-gallery:hover{
+  opacity: 1;
+}
+
 .dash{
   width: 20px;
   border: 2px solid white;
+}
+
+.all-page-img img {
+  max-width: 100%;
+  height: auto;
 }
 
 /*Container small*/
@@ -208,20 +243,24 @@ nav ul {
 
 /*Container three*/
 .container-three-photo {
+  position: relative;
   width: 33.33333%;
 }
 
-.red {
-  background: red;
-  height: 40px;
+.photo-gallery {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
-.black {
-  background: black;
-  height: 40px;
+.photo-gallery img{
+  width: 20rem;
 }
 
-.yellow {
-  background: yellow;
-  height: 40px;
+.photo-gallery h2 {
+  font-size: 1.5rem;
+}
+
+.photo-gallery p {
+  font-size: 0.9rem;
+  margin-top: 1rem;
 }
