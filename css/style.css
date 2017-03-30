@@ -30,6 +30,18 @@ html {
   transition: ease-in-out 0.25s
 }
 
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
 .background-light-green {
   background-color: #becbb7;
 }
@@ -40,6 +52,11 @@ html {
 
 .float-right{
   float: right;
+}
+
+.display-flex-start {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .flex-center-column {
@@ -155,6 +172,7 @@ nav ul {
 }
 
 .shop-box h2 {
+  font-family: monospace;
   color: #8da79d;
   text-shadow:
    -2px -2px 0 #fff,
@@ -162,16 +180,48 @@ nav ul {
     -2px 2px 0 #fff,
     2px 2px 0 #fff;
   font-size: 7rem;
+  margin-top: 3rem;
 }
 
 .title {
   font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .subtitle {
-  font-size: 1rem;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .title-box {
+  font-family: monospace;
   font-size: 5.5rem;
+  margin-top: 2rem;
+}
+
+.box-subtitle {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+/*Container three*/
+.container-three-photo {
+  width: 33.33333%;
+}
+
+.red {
+  background: red;
+  height: 40px;
+}
+
+.black {
+  background: black;
+  height: 40px;
+}
+
+.yellow {
+  background: yellow;
+  height: 40px;
 }
