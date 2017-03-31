@@ -69,6 +69,10 @@ html {
   background-color: #cac4b9;
 }
 
+.background-light-blue {
+  background-color: #9cb5c6;
+}
+
 .background-red {
   background-color: #7a242e;
 }
@@ -149,6 +153,12 @@ html {
   border: 2px solid white;
 }
 
+.dash-all-page{
+  width: 99%;
+  border: 1px solid #929292;
+  margin-bottom: 5rem;
+}
+
 .all-page-img img {
   max-width: 100%;
   height: auto;
@@ -202,6 +212,14 @@ nav ul {
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
+  display: inline-flex;
+}
+
+.container-half-text {
+  width: 50%;
+  height: 100%;
+  display: flex;
   justify-content: center;
   display: inline-flex;
 }
@@ -297,4 +315,5 @@ nav ul {
 
 .heels-img p {
   margin-top: 2rem;
+  margin-bottom: 6rem;
 }
