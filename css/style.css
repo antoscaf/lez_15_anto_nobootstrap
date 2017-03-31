@@ -97,6 +97,11 @@ html {
   align-items: center;
 }
 
+.flex-display-around {
+  display: flex;
+  justify-content: space-around;
+}
+
 .hover-effect {
   position:relative;
   background:black;
@@ -316,4 +321,78 @@ nav ul {
 .heels-img p {
   margin-top: 2rem;
   margin-bottom: 6rem;
+}
+
+.container-four-colum {
+  width: 25%;
+}
+
+.link h2 {
+  margin-top: 3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  font-family: sans-serif;
+}
+
+.link a {
+  text-decoration: none;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+
+.link li {
+  margin-top: .5rem;
+  font-family: sans-serif;
+}
+
+/*Footer*/
+footer {
+  margin-top: 1.5rem;
+  background-color: #2d2d2d;
+}
+
+.credits, .social {
+  margin-top: 1rem;
+}
+
+.social a {
+  color: white;
+}
+
+.social a:hover {
+  color: white;
+}
+
+.social ul {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+  padding-right: 100px;
+}
+.social li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.container-credits {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  display: inline-flex;
+  margin-left: 3rem;
+}
+
+.container-social {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  display: inline-flex;
 }
